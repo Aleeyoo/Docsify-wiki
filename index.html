@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
 
 <head>
@@ -15,38 +16,41 @@
       --theme-color-dark: #4A3B6B;
     }
 
-    .sidebar {
-      background-color: #f8f9fa;
-      width: 200px;
-      min-width: 200px;
-    }
+```
+.sidebar {
+  background-color: #f8f9fa;
+  width: 200px;
+  min-width: 200px;
+}
 
-    .app-name {
-      color: #6B5B95;
-      margin-top: 0;
-      padding-top: 0;
-    }
+.app-name {
+  color: #6B5B95;
+  margin-top: 0;
+  padding-top: 0;
+}
 
-    aside.sidebar {
-      margin-top: 0;
-      padding-top: 2rem;
-    }
+aside.sidebar {
+  margin-top: 0;
+  padding-top: 2rem;
+}
 
-    .app-name-link {
-      margin-top: 0;
-      padding-top: 0;
-    }
+.app-name-link {
+  margin-top: 0;
+  padding-top: 0;
+}
 
-    .sidebar ul li a {
-      color: #333;
-      font-size: 16px;
-      line-height: 1.5;
-    }
+.sidebar ul li a {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-    .sidebar ul li a:hover {
-      color: #6B5B95;
-    }
-  </style>
+.sidebar ul li a:hover {
+  color: #6B5B95;
+}
+```
+
+</style>
 </head>
 
 <body>
@@ -55,18 +59,22 @@
     window.$docsify = {
       name: '我的项目文档',//库名
 
-      subMaxLevel: 1,//最高显示 ?? 级目录
+```
+subMaxLevel: 2,//最高显示 ?? 级目录
 
-      // loadNavbar: true,//是否加载导航栏
+  // loadNavbar: true,//是否加载导航栏
 
-      loadSidebar: true,//是否加载侧边栏
-      alias: {
-        'sidebar.md': '/_sidebar.md'
-      }
-    }
-  </script>
+  loadSidebar: true,//是否加载侧边栏
+  alias: {
+    'sidebar.md': '/_sidebar.md'
+  }
+}
+```
+
+</script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 
 </html>
+
